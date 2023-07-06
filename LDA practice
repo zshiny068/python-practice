@@ -1,1 +1,9 @@
+# Clone data from the public repository of files used in this course. Use the `git clone` command.
+!git clone https://github.com/zshiny068/python-practice.git
+# Import libraries 
+import pandas                          #enabling fast,easy and expressice work with structured data 
+import numpy as np                     #enabling the foundation package for scientific computing in Python; np is the naming convention for commonly used module numpy
+import matplotlib.pyplot as plt        #produce plots ad other 2D data visualizations; plt is the naming convention for commonly used module--matplotlib.pyplot
 
+# Notebook magic to plot inline
+%matplotlib inline
